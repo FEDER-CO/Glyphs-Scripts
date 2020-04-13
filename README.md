@@ -9,8 +9,9 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 3. For some of the scripts, you will also need to install Tal Leming's Vanilla: Go to Glyphs > Preferences > Addons > Modules and click the Install Modules button. That’s it.
 
 # SCRIPTS
-## Scramble 
-* Scramble is a script that creates a new tab with a generated random sequence of selected glyphs.
+
+* **Scramble:** Scramble is a script that creates a new tab with a generated random sequence of selected glyphs.
+* **Glyphs Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. It ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
 
 # License
 
