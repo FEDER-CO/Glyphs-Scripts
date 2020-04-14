@@ -10,7 +10,7 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 
 # SCRIPTS
 
-* **Scrambler:** Scrambler is a script that creates a new tab with a generated random sequence of selected glyphs.
+* **Scrambler:** Creates a new tab with a generated random sequence of selected glyphs.
 * **Glyphs Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. It ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
 
 # License
