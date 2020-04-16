@@ -9,5 +9,5 @@ font.newTab()
 for glyph in font.selection:
 	font.currentTab.layers.append(GSControlLayer(10))
 	for layer in glyph.layers:
-		if layer.isSpecialLayer is False :
+		if layer.isMasterLayer is True :
 			font.currentTab.layers.append(layer)
