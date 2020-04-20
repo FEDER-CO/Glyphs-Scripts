@@ -12,6 +12,7 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 
 * **Scrambler:** Creates a new tab with a generated random sequence of selected glyphs.
 * **Glyphs Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. Ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
+* **Dark Mode Switch:** Switches between normal and dark mode.
 
 # License
 
