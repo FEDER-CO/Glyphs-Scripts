@@ -1,4 +1,4 @@
-#MenuTitle: Lowercase control characters
+#MenuTitle: Lowercase Control Characters
 # -*- coding: utf-8 -*-
 __doc__="""
 Creates a new tab with selected glyphs between lowercase control characters "n" and "o".
