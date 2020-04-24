@@ -1,7 +1,7 @@
 #MenuTitle: Glyphs Masters Overview
 # -*- coding: utf-8 -*-
 __doc__="""
-Creates a new tab with rows of selected glyphs in all available masters. It ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
+Creates a new tab with rows of selected glyphs in all available master layers. Useful for comparing the different weights of a typeface.
 """
 
 font = Glyphs.font
