@@ -20,7 +20,7 @@ for glyph in Font.glyphs:
 				composites.append(glyph)
 			else:
 				mixedComposites.append(glyph)			
-						
+#changes glyph color						
 for glyph in baseGlyphs:
 	glyph.color = 6
 for glyph in composites:
