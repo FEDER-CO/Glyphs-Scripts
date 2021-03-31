@@ -11,14 +11,13 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 # SCRIPTS
 
 * **Scrambler:** Creates a new tab with a generated random sequence of selected glyphs.
-* **Glyphs Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. Ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
+* **Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. Ignores brace, bracket or a smart component layers. Useful for comparing the different weights of a typeface.
 * **Dark Mode Switch:** Switches between normal and dark mode.
-* **Lowercase Control Characters:** Creates a new tab with selected glyphs between lowercase control characters "n" and "o".
-* **Uppercase Control Characters:** Creates a new tab with selected glyphs between lowercase control characters "H" and "O".
+* **Control Characters:** Creates a new tab with selected glyphs between control characters "n" and "o".
 
 # License
 
-Copyright 2020 Federico Parra (@FEDER_CO).
+Copyright 2021 Federico Parra (@FEDER_CO).
 Based on the GlyphsSDK by Georg Seifert (@schriftgestalt), Jan Gerner (@yanone) and Rainer Erich Scheichelbauer (@mekkablue).
 
 Licensed under the Apache License, Version 2.0 (the "License");
