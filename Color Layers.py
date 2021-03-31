@@ -19,8 +19,8 @@ for glyph in Font.glyphs:
 			if pathsCount == 0:
 				composites.append(layer)
 			else:
-				mixedComposites.append(layer)	
-						
+				mixedComposites.append(layer)
+				
 #changes layer color						
 for layer in baseGlyphs:
 	layer.setColorIndex_(6)
