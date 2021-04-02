@@ -1,4 +1,4 @@
-#MenuTitle: Color Layers
+#MenuTitle: Color Glyphs
 # -*- coding: utf-8 -*-
 __doc__="""
 Colors glyphs to differentiate if they are Base Glyphs, Composites or Mixed Composites.
