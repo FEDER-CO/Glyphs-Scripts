@@ -4,7 +4,7 @@ __doc__="""
 Creates a new tab with selected glyphs between control characters.
 """
 
-font = Glyphs.font
+Font = Glyphs.font
 tab = ''
 
 # supports latin, greek and cyrillic
@@ -17,7 +17,7 @@ symbol = ["numero_s", "gammamod-latin", "florin", "numeral-greek", "lowernumeral
 tabular = ["eight.tf", "eight.tosf", "five.tf", "five.tosf", "four.tf", "four.tosf", "nine.tf", "nine.tosf", "one.tf", "one.tosf", "seven.tf", "seven.tosf", "six.tf", "six.tosf", "three.tf", "three.tosf", "two.tf", "two.tosf", "zero.tf", "zero.tosf", "zero.tf.zero", "zero.tosf.zero", "parenleft.tf", "parenright.tf", "braceleft.tf", "braceright.tf", "bracketleft.tf", "bracketright.tf", "quotedbl.tf", "quotesingle.tf", "period.tf", "comma.tf", "colon.tf", "semicolon.tf", "degree.tf"]
 
 
-for glyph in font.selection:
+for glyph in Font.selection:
     if glyph.name in uppercase:
 	    tab += "/H/H/%s/H/O/%s/O/O\n" % (glyph.name, glyph.name)
     elif glyph.name in lowercase:
@@ -37,4 +37,4 @@ for glyph in font.selection:
 	    	
 
 # open new tab with text
-font.newTab(tab)
+Font.newTab(tab)

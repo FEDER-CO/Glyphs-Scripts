@@ -4,10 +4,10 @@ __doc__="""
 Creates a new tab with rows of selected glyphs in all available master layers. Useful for comparing the different weights of a typeface.
 """
 
-font = Glyphs.font
-font.newTab()
-for glyph in font.selection:
-	font.currentTab.layers.append(GSControlLayer(10))
+Font = Glyphs.font
+Font.newTab()
+for glyph in Font.selection:
+	Font.currentTab.layers.append(GSControlLayer(10))
 	for layer in glyph.layers:
 		if layer.isMasterLayer is True :
-			font.currentTab.layers.append(layer)
+			Font.currentTab.layers.append(layer)

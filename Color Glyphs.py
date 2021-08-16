@@ -4,6 +4,8 @@ __doc__="""
 Colors glyphs to differentiate if they are Base Glyphs, Composites or Mixed Composites.
 """
 
+Font.disableUpdateInterface()
+
 Font = Glyphs.font
 baseGlyphs = []
 composites = []
@@ -28,3 +30,5 @@ for glyph in composites:
 	glyph.color = 10
 for glyph in mixedComposites:
 	glyph.color = 3
+
+Font.enableUpdateInterface()
