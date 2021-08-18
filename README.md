@@ -15,7 +15,7 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 * **Dark Mode Switch:** Switches between normal and dark mode.
 * **Control Characters:** Creates a new tab with selected glyphs between control characters "n" and "o".
 * **Nested Components:** Creates a new tab with glyphs that have nested components.
-* **Color Nested Components:** Colors layers that have nested components.
+* **Color Nested Components:** Colors glyph layers that have nested components.
 * **Color Glyphs:** Colors glyphs to differentiate if they are Base Glyphs, Composites or Mixed Composites.
 * **Color Layers:** Colors glyph layers to differentiate if they are Base Glyphs, Composites or Mixed Composites.
 
