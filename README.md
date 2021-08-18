@@ -21,7 +21,7 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 
 # License
 
-Copyright 2021 Federico Parra (@FEDER_CO).
+Copyright 2021 Federico Parra Barrios (@FEDER_CO).
 Based on the GlyphsSDK by Georg Seifert (@schriftgestalt), Jan Gerner (@yanone) and Rainer Erich Scheichelbauer (@mekkablue).
 
 Licensed under the Apache License, Version 2.0 (the "License");
