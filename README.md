@@ -10,14 +10,15 @@ Python scripts for the [Glyphs font editor](http://glyphsapp.com/).
 
 # SCRIPTS
 
-* **Scrambler:** Creates a new tab with a generated random sequence of selected glyphs.
-* **Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. Ignores special layers. Useful for comparing the different weights of a typeface.
-* **Dark Mode Switch:** Switches between normal and dark mode.
-* **Control Characters:** Creates a new tab with selected glyphs between control characters "n" and "o".
-* **Nested Components:** Creates a new tab with glyphs that have nested components.
-* **Color Nested Components:** Colors glyph layers that have nested components.
 * **Color Glyphs:** Colors glyphs to differentiate if they are Base Glyphs, Composites or Mixed Composites.
 * **Color Layers:** Colors glyph layers to differentiate if they are Base Glyphs, Composites or Mixed Composites.
+* **Color Nested Components:** Creates a new tab with glyphs that have nested components and colors their layers.
+* **Control Characters:** Creates a new tab with selected glyphs between control characters "n" and "o".
+* **Dark Mode Switch:** Switches between normal and dark mode.
+* **Masters Overview:** Creates a new tab with rows of selected glyphs in all available masters. Ignores special layers. Useful for comparing the different weights of a typeface.
+* **Prepare for Pre-production:** Removes glyphOrder, guides, backup layers, annotations, background, images, color, unlocks glyphs.
+* **Reinterpolate Current Layer:** Reinterpolates currently selected layer.
+* **Scrambler:** Creates a new tab with a generated random sequence of selected glyphs.
 
 # License
 
